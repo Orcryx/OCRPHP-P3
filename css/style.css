@@ -1,0 +1,230 @@
+* {
+    font-family: 'Open Sans', sans-serif; 
+    box-sizing: border-box;
+
+    /*Padding & Margin*/
+    padding: 0px;
+    margin: 0px;
+    
+   /*variable de couleurs */
+
+    --backgroundHTML : #aca6a5;
+    --backgroundDiv :#262f36 ;
+    --transparentBackgroundDiv : #262f36db;
+    --colorPrimary :#d87152 ;
+    --colorSecond : #000000; 
+    --colorExtra : #aca6a5 ;
+    --colorTitle : #d3935b;
+    --colorLink: #f18336;
+    --white : #ffffff;
+}
+
+body{
+    background-color: var(--backgroundHTML);
+    width: 100vm;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+header{
+    width: 100%;
+    position: relative;
+ 
+    
+}
+main{
+    width: 100%;
+    flex : 2;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--backgroundDiv);
+
+    width: 100%;
+    padding: 30px;
+}
+footer a{
+    font-size: 1em;
+    font-weight: 400;
+}
+footer p{
+    font-size: 1.5em;
+}
+
+   /*Les Titres & Les Liens */
+h1{
+    font-size: 2em;
+    color: var(--white);
+    text-align: center;
+}
+h2{
+    color: var(--colorPrimary);
+    line-height: 50px;
+
+}
+h3{
+    color: var(--colorTitle);
+}
+
+   /* Les Balises */
+a{
+    font-weight: 700;
+    font-size: 1.5em;
+}
+a:active{
+    color: var(--colorLink);
+}
+
+ul, li, a {
+    text-decoration: none;
+    list-style-type: none;
+   
+    margin-left: 10px;
+
+    color: var(--white);
+}
+
+article{
+    background-color: var(--white);
+    padding: 1%;
+    height: 100%;
+}
+
+section{
+    height: 400px;
+}
+
+   /* Les Class */
+
+.bold{
+   font-weight: 700;
+   color: var(--white);
+}
+.listInLine li{
+    display: inline-block;
+    margin : 0 10px 0 10px;
+}
+
+.imgAbout{
+    height: 100%;   
+    min-width: 300px;  
+} 
+
+.heroText h1{
+padding-top: 100px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.imgProgrammation{
+
+    width: 500px;
+    height : 600px;
+    object-fit: cover;
+}
+
+.titreProgrammation{
+
+    width: 100%;
+}
+.gallery{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap; 
+    height: 100%;
+    margin-top: 30px;
+    gap: 10px;
+
+}
+
+.blocGallery{
+
+   position: relative;
+   display: flex;
+}
+
+.btnGallery
+{
+    background-color: var(--transparentBackgroundDiv);
+    position: absolute;
+    bottom: 0px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+align-items: center;
+}
+
+.btnGallery button
+{
+background-color: var(--colorLink);
+width: 100px;
+height: 35px;
+border: 1px solid var(--colorLink);
+border-radius: 10px;
+color: var(--white);
+font-size: large;
+}
+
+.btnGallery button:hover
+{
+    cursor: pointer;
+}
+
+.locationBlockLeft{
+   flex : 1;
+    height: 400px;
+}
+
+.locationBlockRight{
+     flex : 1;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+   /* Les ID */
+
+#heroImage{
+
+height: 300px;
+background-image: url("../assets/images/HERO.png");
+background-size: cover;
+
+}
+
+#navigation {
+
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    align-items: center;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    height: 50px;
+    padding: 20px;
+    background-color: var(--transparentBackgroundDiv);
+}
+
+#about, #location{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    gap: 10px;
+    height: 400px;
+    width: 100vm;
+    padding: 1%;
+}
+
+#programmation{
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    width: 100vm;
+    margin-bottom: 50px;
+}
