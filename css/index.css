@@ -6,7 +6,7 @@
  }
  
  .imgAbout{
-     height: 100%;   
+     height: auto;   
      min-height: 300px;
      width: 100%;  
  } 
@@ -103,6 +103,18 @@
 #blockAbout p{
     text-align: justify;
 }
+
+#titleAbout{
+    display: flex;
+    align-items: center;
+ }
+
+
+ #titleAbout img{
+    width: 100px;
+    height: 100%;
+ }
+
 
 #location{
     display: flex;
