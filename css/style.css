@@ -34,15 +34,18 @@ header{
     
 }
 main{
-    width: 100%;
+    width: 90%;
     flex : 2;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px; 
+    background-color: white;
 }
 
 footer{
     display: flex;
     justify-content: space-between;
     background-color: var(--backgroundDiv);
-
     width: 100%;
     padding: 30px;
 }
@@ -62,8 +65,8 @@ h1{
 }
 h2{
     color: var(--colorPrimary);
-    line-height: 50px;
-
+    line-height: 30px;
+    margin-bottom: 10px;
 }
 h3{
     color: var(--colorTitle);
@@ -80,21 +83,20 @@ a:active{
 
 ul, li, a {
     text-decoration: none;
-    list-style-type: none;
-   
+    list-style-type: none;  
     margin-left: 10px;
-
     color: var(--white);
 }
 
 article{
     background-color: var(--white);
     padding: 1%;
-    height: 100%;
+  
+    min-height: 300px;
 }
 
 section{
-    height: 400px;
+    max-height: 400px;
 }
 
    /* Les Class */
@@ -110,34 +112,30 @@ section{
 
 .imgAbout{
     height: 100%;   
-    min-width: 300px;  
+    min-height: 300px;
+    width: 100%;  
 } 
 
 .heroText h1{
-padding-top: 100px;
-margin-left: auto;
-margin-right: auto;
+    padding-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .imgProgrammation{
-
-    width: 500px;
-    height : 600px;
+    width: 200px;
+    height :250px;
     object-fit: cover;
 }
 
 .titreProgrammation{
-
     width: 100%;
 }
+
 .gallery{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: nowrap; 
-    height: 100%;
-    margin-top: 30px;
-    gap: 10px;
-
 }
 
 .blocGallery{
@@ -155,10 +153,10 @@ margin-right: auto;
     width: 100%;
     display: flex;
     justify-content: center;
-align-items: center;
+    align-items: center;
 }
 
-.btnGallery button
+.btnGallery button, .linkReservation
 {
 background-color: var(--colorLink);
 width: 100px;
@@ -175,17 +173,36 @@ font-size: large;
 }
 
 .locationBlockLeft{
-   flex : 1;
-    height: 400px;
-}
-
-.locationBlockRight{
-     flex : 1;
     display: flex;
     justify-content: center;
-}
+    align-items: center;
+    position: relative;
+} 
 
+ .locationBlockRight{
+    flex: 1;
+    max-width: 60%;
+ }
 
+ .linkReservation{
+    position: absolute;
+    height: 60px;
+    width: 120px;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 100px;
+    right:0px; 
+    top: 10px;
+ }
+
+ .linkReservation a{
+    font-size:16px;
+ }
+
+ .iconLocation{
+    height: 100%;
+    min-width: 350px;
+ }
 
    /* Les ID */
 
@@ -211,20 +228,30 @@ background-size: cover;
     background-color: var(--transparentBackgroundDiv);
 }
 
-#about, #location{
+#about{
     display: flex;
     justify-content: space-between;
     flex: 1;
-    gap: 10px;
-    height: 400px;
-    width: 100vm;
     padding: 1%;
+    max-height: 400px;
+    overflow: hidden;
+}
+
+#location{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 #programmation{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     height: auto;
-    width: 100vm;
+    width: 100%;
     margin-bottom: 50px;
+    padding: 3%;
+}
+
+#blockAbout p{
+    text-align: justify;
 }
