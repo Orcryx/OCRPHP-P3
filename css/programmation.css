@@ -1,0 +1,155 @@
+main{
+    /* background-color: var(--colorLink); */
+    background-color: transparent;
+}
+
+article{
+    background-color: transparent;
+}
+
+footer{
+    margin-top: 50px;
+}
+
+/*Les ID*/
+
+#programmeDateBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/*Les Class*/
+
+.programmeDate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: var(--transparentBackgroundDiv);
+}
+
+.programmeDate p{
+  font-weight: 800;
+  color: var(--white);
+}
+
+.programmeDateBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+    padding: 3px;
+    margin-bottom: 30px;
+    background-color: var(--white);
+    /* border: 3px solid orange; */
+}
+
+.mediaBlock, .synopsisBlock{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* border: 1px solid slateblue; */
+}
+
+
+.mediaBlock{
+  /* gap: 5px; */
+  max-height: 400px;
+}
+
+.mediaAffiche{
+    flex: 1 ;
+    width: 300px;
+    /* max-height: 400px; */
+    /* margin-top: 20px; */
+    /* border: 1px solid fuchsia; */
+}
+
+.mediaAffiche img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.mediaVideo{
+    display: flex;
+    flex-direction: column;
+    flex: 2 ;
+    width: 300px;
+    height: auto;
+    /* border: 1px solid blueviolet; */
+}
+
+.filmVideo{
+
+    font-weight: 800;
+    font-size: larger;
+    margin: 5px auto;
+    color: var(--colorPrimary);
+}
+
+.mediaVideo video{
+    width: 99%;
+    max-height: 350px;
+    background-color: black;
+}
+
+.desciptionBlock{
+    flex:2;
+    max-height: 150px ;
+    /* border: 1px solid rosybrown; */
+}
+
+
+.synopsisInfo
+{
+    flex: 1;
+    /* border: 1px solid thistle; */
+}
+
+.synopsisSousTitre, .synopsisTitre{
+
+    font-weight: 500;
+    color: var(--colorExtra );
+}
+
+.synopsisArticle{
+    font-size: 12px;
+    text-align: justify;
+}
+
+.synopsisInfo
+{
+    flex: 1;
+    /* border: 1px solid thistle; */
+}
+
+
+.sysnopsisButton{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.sysnopsisButton button{
+    background-color: var(--colorLink);
+    width: 100px;
+    height: 35px;
+    border: 1px solid var(--colorLink);
+    border-radius: 10px;
+    color: var(--white);
+    font-size: large;
+    cursor: pointer;
+}
+
+.desciptionBlock, .synopsisInfo{
+padding: 0 10px 10px 10px;
+}

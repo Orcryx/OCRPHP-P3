@@ -39,7 +39,7 @@ main{
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 30px; 
-    background-color: white;
+    background-color: var(--white);
 }
 
 footer{
@@ -90,8 +90,7 @@ ul, li, a {
 
 article{
     background-color: var(--white);
-    padding: 1%;
-  
+    padding: 1%; 
     min-height: 300px;
 }
 
@@ -99,17 +98,23 @@ section{
     max-height: 400px;
 }
 
-
     /* Les Class */
 
 .listInLine li{
     display: inline-block;
     margin : 0 10px 0 10px;
 }
+
 .heroText a h1{
     padding-top: 50px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.imgProgrammation{
+    width: 200px;
+    height :250px;
+    object-fit: cover;
 }
 
 
