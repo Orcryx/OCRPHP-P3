@@ -1,0 +1,60 @@
+main{
+    margin: 3%;
+    padding: 20px;
+    background-color: var( --transparentBackgroundDiv);
+}
+
+label{
+    font-weight: 500;
+    font-size: medium;
+    color: var(--colorPrimary );
+    margin: 10px 0 3px 0;
+}
+
+textarea{
+max-width: 100%;
+min-height: 150px;
+max-height: 200px;
+}
+
+input, textarea, #boxForm{
+border-radius: 10px;
+}
+
+input{
+  height: 40px;
+}
+
+/* Les Class */
+
+/* Les ID */
+
+#boxTitle{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+#boxForm{
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    background-color: var( --white);
+}
+
+#btnForm{
+ 
+    height: 50px;
+    padding: 0 5%;
+    margin-top: 20px;
+    align-self: center;
+    cursor: pointer;
+    background-color: var(--colorPrimary);
+    
+    border: none;
+    border-radius: 10px;
+
+    font-weight: 500;
+    font-size: medium;
+    color: var(--white);
+}

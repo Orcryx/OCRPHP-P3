@@ -1,0 +1,21 @@
+input{display:none;}
+
+input:checked ~ div {height:200px;}
+
+
+
+/* Les Class */
+
+.box{
+  border:5px ridge grey;
+  width:250px;
+  height:3rem;
+  transition:1s;
+  overflow:hidden;
+  border : 1px solid sienna;
+}
+
+/* Les ID */
+
+
+
