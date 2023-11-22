@@ -1,6 +1,7 @@
 main{
     /* background-color: var(--colorLink); */
     background-color: transparent;
+    margin-top: 20px;
 }
 
 article{
@@ -25,11 +26,11 @@ article{
     width: 100%;
     height: 50px;
     padding: 20px;
-    margin: 20px 0;
+    margin: 5px 0;
     background-color: var(--transparentBackgroundDiv);
 }
 
-.programmeDate p{
+.programmeDate{
   font-weight: 800;
   color: var(--white);
 }
@@ -150,4 +151,19 @@ article{
 .desciptionBlock, .synopsisInfo{
 padding: 0 10px 10px 10px;
 overflow: hidden;
+}
+
+/* Systeme div/checkbo collapse */
+
+input{display:none;}
+
+input:checked ~ div {height:auto;}
+
+.box{
+  border:5px ridge grey;
+  /* width:250px; */
+  height:0rem;
+  transition:1s;
+  overflow:hidden;
+  border: none;
 }

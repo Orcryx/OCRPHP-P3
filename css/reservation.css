@@ -1,6 +1,6 @@
 input{display:none;}
 
-input:checked ~ div {height:200px;}
+input:checked ~ div {height:auto;}
 
 
 
@@ -8,11 +8,10 @@ input:checked ~ div {height:200px;}
 
 .box{
   border:5px ridge grey;
-  width:250px;
-  height:3rem;
+  /* width:250px; */
+  height:0rem;
   transition:1s;
   overflow:hidden;
-  border : 1px solid sienna;
 }
 
 /* Les ID */

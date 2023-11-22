@@ -11,6 +11,7 @@
     --backgroundHTML : #aca6a5;
     --backgroundDiv :#262f36 ;
     --transparentBackgroundDiv : #262f36db;
+    --hyperTransparentBackgroundDiv : #262f3683;
     --colorPrimary :#d87152 ;
     --colorSecond : #000000; 
     --colorExtra : #aca6a5 ;
@@ -35,7 +36,7 @@ header{
 }
 main{
     width: 90%;
-    flex : 2;
+    /* flex : 2; */
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 30px; 

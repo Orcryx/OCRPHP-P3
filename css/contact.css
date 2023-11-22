@@ -1,7 +1,7 @@
 main{
     margin: 3%;
     padding: 20px;
-    background-color: #262f3683;
+    background-color: var(--hyperTransparentBackgroundDiv);
 }
 
 label{
