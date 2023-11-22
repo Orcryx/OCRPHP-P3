@@ -31,14 +31,10 @@ body{
 header{
     width: 100%;
     position: relative;
- 
-    
 }
 main{
     width: 90%;
-    /* flex : 2; */
-    margin-left: auto;
-    margin-right: auto;
+    align-self: center;
     padding-bottom: 30px; 
     background-color: var(--white);
 }
