@@ -115,7 +115,8 @@ section{
 .imgProgrammation{
     width: 200px;
     height :250px;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
 }
 
 
