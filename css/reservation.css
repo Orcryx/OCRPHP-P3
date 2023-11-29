@@ -1,10 +1,8 @@
-input{display:none;}
-
-input:checked ~ div {height:auto;}
 
 
 
 /* Les Class */
+
 
 .box{
   border:5px ridge grey;
@@ -14,7 +12,36 @@ input:checked ~ div {height:auto;}
   overflow:hidden;
 }
 
+.blocResaFilm{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+  height: auto;
+  margin: 1%;
+  padding-top: 10px;
+
+}
+
+.imgBlocResaFilm{
+  height: 200px;
+  width: auto;
+  object-fit: cover;
+  padding-bottom: 10px;
+}
+
 /* Les ID */
 
+#boxResa, #boxForm{
+  background-color: var(--white);
+  padding: 3%;
+  margin: 3%;
+  border-radius: 10px;
+}
 
 
+#boxTitle{
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
