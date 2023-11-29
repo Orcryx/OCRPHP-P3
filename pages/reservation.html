@@ -32,21 +32,25 @@
     </div> 
     <form method="POST" action="#">
         <div id="boxResa">
-            <fieldset class="blocResaFilm">
-                <legend>King Kong</legend>
-              
+            <div class="blocResaFilm">
                 <div>
                     <img src="../assets/images/peron_king-kong-600x752.jpg" alt="" class="imgBlocResaFilm">
                 </div>
-                <div>
-                  <input type="checkbox" id="05082023_KingKong" name="05082023_KingKong" checked />
-                  <label for="05082023_KingKong">05 août 2023 ~ 18h</label>
-                </div>
+                <div class="infoResaFilm">
+                    <p class="filmVideo">King Kong</p>
+                    <p>De : Ernest B. Schoedsack, Merian C. Cooper</p>
+                    <p>Avec : Fay Wray, Robert Armstrong, Bruce Cabot</p>
+                 
+                    <div class="boxCheckbox">
+                        <label for="05082023_KingKong">05 août 2023 ~ 18h</label>
+                        <input type="checkbox" id="05082023_KingKong" name="05082023_KingKong" checked />
+                    </div>
+               </div>
               
                 <div>
                   
                 </div>
-              </fieldset>
+            </div>
         </div>
     
 
@@ -55,9 +59,7 @@
             <input type="text" id="nom" name="nom" required>
             <label for="email">Votre e-mail</label>
             <input type="email" id="email" name="email" required>
-            <label for="message">Votre message</label>
-            <textarea id="message" name="message" required></textarea>
-            <button type="submit" id="btnForm">Envoyer</button>
+            <button type="submit" id="btnForm">Réserver</button>
         
         </div> 
     </form>
