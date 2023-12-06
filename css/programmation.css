@@ -1,5 +1,5 @@
+
 main{
-    /* background-color: var(--colorLink); */
     background-color: transparent;
     margin-top: 20px;
 }
@@ -53,21 +53,21 @@ article{
     display: flex;
     justify-content: space-between;
     width: 100%;
-    /* border: 1px solid slateblue; */
+
 }
 
+.synopsisBlock{
+    max-height: 200px;
+}
 
 .mediaBlock{
-  /* gap: 5px; */
-  max-height: 400px;
+  gap: 5px; 
+  max-height: 395px ;
 }
 
 .mediaAffiche{
     flex: 1 ;
     width: 300px;
-    /* max-height: 400px; */
-    /* margin-top: 20px; */
-    /* border: 1px solid fuchsia; */
 }
 
 .mediaAffiche img{
@@ -80,9 +80,9 @@ article{
 .mediaVideo{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     flex: 2 ;
     width: 300px;
-    height: auto;
     /* border: 1px solid blueviolet; */
 }
 
@@ -96,6 +96,7 @@ article{
 
 .mediaVideo video{
     width: 99%;
+    height: 100%;
     max-height: 350px;
     background-color: black;
 }
@@ -110,18 +111,30 @@ article{
 .synopsisInfo
 {
     flex: 1;
+    font-size: 0.8em;
     /* border: 1px solid thistle; */
 }
 
 .synopsisSousTitre, .synopsisTitre{
 
     font-weight: 500;
+ 
     color: var(--colorExtra );
 }
 
+
+.synopsisSousTitre{
+    margin-bottom: 5px;
+}
+
+
 .synopsisArticle{
+
+    height: 80%;
+    margin-top: 10px;
     font-size: 0.8em;
     text-align: justify;
+    padding: 10px;
 }
 
 .synopsisInfo
@@ -172,18 +185,54 @@ input:checked ~ div {height:auto;}
 
 @media screen and (max-width: 992px)
 {
+ 
+.synopsisArticle{
 
+    overflow: scroll;
+}
 
 }
 
 @media screen and (max-width: 768px)
 {
+    .synopsisArticle{
+        font-size: 0.7em;
+    }
 
+    .mediaBlock{
+  
+        max-height: 250px ;
+
+      }
+
+      .filmVideo{
+        font-size: 1em;
+    }
 
 }
 
 @media screen and (max-width: 420px)
 {
+    .synopsisArticle{
+        font-size: 0.6em;
+    }
 
+    .mediaAffiche{
+        display: none;
+    }
+    .sysnopsisButton{
+        display: none;
+        
+    }
+
+    .synopsisInfo
+{
+  overflow: scroll;
+  font-size: 0.8em;
+}
+
+.synopsisBlock{
+    max-height: 150px;
+}
 
 }
