@@ -148,3 +148,55 @@ section{
 #navigation a:hover, .active{
     color: var(--colorLink);
 }
+
+
+/*Responsif design*/
+
+@media screen and (max-width: 992px)
+{
+
+    h1{
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 768px)
+{
+    h1{
+        font-size: 1.2em;
+    }
+
+    a{
+        font-size: 1em;
+    }
+
+    #heroImage{
+        max-height: 200px;
+    }
+
+}
+
+
+/*Responsif design*/
+
+@media screen and (max-width: 420px)
+{
+    h1{
+        font-size: 1.2em;
+    }
+    #heroImage{
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    a{
+        font-size: 0.6em;
+    }
+
+    footer p{
+        font-size: 0.7em;
+    }
+    footer a{
+        font-size: 0.6em;
+    }
+}

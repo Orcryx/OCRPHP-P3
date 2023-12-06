@@ -167,3 +167,23 @@ input:checked ~ div {height:auto;}
   overflow:hidden;
   border: none;
 }
+
+/*Responsif design*/
+
+@media screen and (max-width: 992px)
+{
+
+
+}
+
+@media screen and (max-width: 768px)
+{
+
+
+}
+
+@media screen and (max-width: 420px)
+{
+
+
+}
