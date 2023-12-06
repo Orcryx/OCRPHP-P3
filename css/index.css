@@ -26,6 +26,16 @@
  
     position: relative;
     display: flex;
+    max-height: 250px;
+    max-width: 200px;
+
+ }
+
+ .imgProgrammation{
+    margin-top: 10px;
+    height: auto;
+    width: 100%;
+
  }
  
  .btnGallery
@@ -131,8 +141,36 @@
 
 @media screen and (max-width: 992px)
 {
+    .imgAbout{
+ 
+        min-height: none;
+        max-height: 200px;
+        width: 200px;  
+        object-fit: cover;
 
+    } 
 
+    #about{
+    
+        max-height: 300px;
+        overflow: hidden; 
+        font-size: 0.8em;
+    }
+
+    #location{
+       /* border: 2px solid firebrick; */
+       height: auto;
+
+    }
+
+    .iconLocation{
+        height: 75%;
+        min-width: 50px;
+     }
+
+     .locationBlockRight{
+        max-width: 60%;
+     }
 }
 
 @media screen and (max-width: 768px)

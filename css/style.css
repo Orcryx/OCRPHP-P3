@@ -22,7 +22,7 @@
 
 body{
     background-color: var(--backgroundHTML);
-     width: 100vm;
+    width: 100vw;
     height: 100vh; 
     display: flex;
     flex-direction: column;
@@ -34,6 +34,7 @@ header{
 }
 main{
     width: 90%;
+    height: 100%;
     align-self: center;
     padding-bottom: 30px; 
     background-color: var(--white);
