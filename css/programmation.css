@@ -89,7 +89,7 @@ article{
 .filmVideo{
 
     font-weight: 800;
-    font-size: larger;
+    font-size: 1.8em;
     margin: 5px auto;
     color: var(--colorPrimary);
 }
@@ -120,7 +120,7 @@ article{
 }
 
 .synopsisArticle{
-    font-size: 12px;
+    font-size: 0.8em;
     text-align: justify;
 }
 
@@ -145,7 +145,7 @@ article{
     border: 1px solid var(--colorLink);
     border-radius: 10px;
     color: var(--white);
-    font-size: large;
+    font-size: 1.1em;
     cursor: pointer;
 }
 
@@ -162,7 +162,6 @@ input:checked ~ div {height:auto;}
 
 .box{
   border:5px ridge grey;
-  /* width:250px; */
   height:0rem;
   transition:1s;
   overflow:hidden;

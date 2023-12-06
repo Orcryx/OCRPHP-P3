@@ -6,7 +6,7 @@ main{
 
 label{
     font-weight: 500;
-    font-size: medium;
+    font-size: 1.2em;
     color: var(--colorPrimary );
     margin: 10px 0 3px 0;
 }
@@ -55,6 +55,6 @@ input{
     border-radius: 10px;
 
     font-weight: 500;
-    font-size: medium;
+    font-size: 1.2em;
     color: var(--white);
 }

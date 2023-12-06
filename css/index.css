@@ -48,7 +48,7 @@
  border: 1px solid var(--colorLink);
  border-radius: 10px;
  color: var(--white);
- font-size: large;
+ font-size: 0.7em;
  }
  
  .btnGallery button:hover
@@ -77,10 +77,6 @@
      margin-bottom: 100px;
      right:0px; 
      top: 10px;
-  }
- 
-  .linkReservation a{
-     font-size:16px;
   }
  
   .iconLocation{

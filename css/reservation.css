@@ -1,3 +1,6 @@
+/* Les Globales*/
+
+
 /* Les Class */
 
 .ligne{
@@ -8,9 +11,15 @@
   margin-top: 1%;
   width: 100%;
 }
+
+.imgBlocResaFilm{
+  max-height: 150px;
+  max-width: 100px;
+}
+
 .imgResaFilm{
-  height: 200px;
-  width: auto;
+  height: auto;
+  width: 100%;
   object-fit: cover;
   padding-bottom: 10px;
 }
@@ -27,16 +36,16 @@
 
   padding: 1% 1% 0 1%;
   
-  font-size: x-small;
+  font-size: 0.8em;
 
   border-radius: 10px;
-  border: 1px solid rgba(18, 24, 49, 0.25);
+  border: 1px solid rgba(18, 30, 79, 0.25);
 }
 
 .filmVideo{
   
   font-weight: 700;
-  font-size: x-large;
+  font-size: 1.5em;
   color: var(--colorPrimary);
 }
 
@@ -44,7 +53,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  
 }
+
 
 /* Les ID */
 
