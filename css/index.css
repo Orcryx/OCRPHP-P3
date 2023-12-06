@@ -1,3 +1,9 @@
+ 
+  iframe{
+    height: 300px;
+    width: 50px;
+  }
+ 
  /* Les Class */
 
  .bold{
@@ -141,14 +147,6 @@
 
 @media screen and (max-width: 992px)
 {
-    .imgAbout{
- 
-        min-height: none;
-        max-height: 200px;
-        width: 200px;  
-        object-fit: cover;
-
-    } 
 
     #about{
     
@@ -163,6 +161,15 @@
 
     }
 
+    .imgAbout{
+ 
+        min-height: none;
+        max-height: 200px;
+        width: 200px;  
+        object-fit: cover;
+
+    } 
+
     .iconLocation{
         height: 75%;
         min-width: 50px;
@@ -176,11 +183,64 @@
 @media screen and (max-width: 768px)
 {
 
+    #about{
+    
+        flex-direction: column;
+        max-height: auto;
+        font-size: 0.8em;
+        max-height: 300px;
+        margin-bottom: 30px;
+    }
+    #location{ 
+        padding: 10px; 
+     }
+   
+
+    .imgAbout{
+ 
+        display: none;
+
+    } 
+
+    .linkReservation{ 
+        height: 40px;
+        width: 100px;
+        right: 25px; 
+        top: 10px;
+     }
+
+     .imgProgrammation{
+        margin-top: 10px;
+        min-height: 200px;
+        width: 100%;
+    
+     }
+    
 
 }
 
 @media screen and (max-width: 420px)
 {
 
+     .iconLocation{
+         max-height: 150px;
+         min-width: 150px;
+        
+      }
+ 
+      .locationBlockRight{
+        display: flex; 
+        max-width: none;
+        width: 100%;
+      }
+
+      
+     .locationBlockLeft{
+        display: none ;
+     }
+
+      .linkReservation{ 
+        display: none;
+     }
 
 }
