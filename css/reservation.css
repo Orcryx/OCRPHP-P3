@@ -58,36 +58,56 @@
 }
 
 .filmVideo{
-  
+ margin-left: auto;
+ margin-right: auto;
+ margin-bottom: 2%;
   font-weight: 700;
   font-size: 1.5em;
   color: var(--colorPrimary);
+
 }
 
 .boxCheckbox, .infoResaFilm, #boxResa{
   display: flex;
   flex-direction: column;
+}
+
+.boxCheckbox,  #boxResa{
+
   align-items: center;
   
 }
 
 
+
 /*Responsif design*/
 
-@media screen and (max-width: 992px)
-{
-
-
-}
 
 @media screen and (max-width: 768px)
 {
 
+  .infoResaFilm{
+    display: none;
+   }
+  
 
 }
 
 @media screen and (max-width: 420px)
 {
 
+.card{
+    max-height: 200px;
+  }
+
+
+.boxCheckbox{
+  font-size: 9px;
+  font-weight: 500;
+ }
+
+ .imgResaFilm{
+  padding-bottom: 0px;
+ }
 
 }

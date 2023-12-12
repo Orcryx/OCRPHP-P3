@@ -132,7 +132,8 @@ section{
 }
 
 
-#navigation {
+
+#navigation, #navigationIcon {
 
     display: flex;
     justify-content: flex-end;
@@ -145,6 +146,12 @@ section{
     padding: 20px;
     background-color: var(--transparentBackgroundDiv);
 }
+
+#navigationIcon{
+    display: none;
+    
+}
+
 
 #navigation a:hover, .active{
     color: var(--colorLink);
@@ -175,6 +182,16 @@ section{
         max-height: 200px;
     }
 
+    #navigation {
+
+        display: none;
+    }
+    
+    #navigationIcon{
+        display: flex;
+        font-size: 1.3em;
+    }
+
 }
 
 
@@ -200,5 +217,10 @@ section{
     }
     footer a{
         font-size: 0.6em;
+    }
+
+    #navigationIcon{
+
+        font-size: 1.5em;
     }
 }

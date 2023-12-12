@@ -13,8 +13,9 @@ label{
 
 textarea{
 max-width: 100%;
-min-height: 150px;
-max-height: 200px;
+
+height: 100px;
+
 }
 
 input, textarea, #boxForm{
@@ -75,6 +76,20 @@ input{
 
 @media screen and (max-width: 420px)
 {
+
+label{
+    font-size: 1em;
+}
+
+input{
+    height: 30px;
+}
+
+
+#btnForm{
+    font-size: 0.9em;
+    height: 30px;
+}
 
 
 }
